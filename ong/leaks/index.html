@@ -1,0 +1,86 @@
+<!-- felons.wtf -->
+<!DOCTYPE html> 
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+
+<!-- css shit -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+    body {
+        font-family: 'PT Mono', monospace;
+        background-color: #000000;
+        color:darkgreen;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    div.a {
+        margin: 0;
+    padding:0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+#shadowBox {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    border: 3px solid;
+}
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 97px;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+.footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+   }  
+  </style>
+  <!-- end css shit -->
+
+
+    <title>felons.wtf leaks</title>
+</head>
+<body>
+    <div class="a">
+            <h1 class="rainbow rainbow_text_animated">felons.wtf/leaks</h3>
+                <h5><a href="/ong/">back</a> - <a href="https://breached.vc/">breach forums</a></h5>
+    </div>
+    <footer>
+        <div class="footer">(c) 2023 Internet Felons LLC - we are not affiliated with any links shown and not responsible for any damange done.</div>
+    </footer>
+</body>
