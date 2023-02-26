@@ -1,0 +1,84 @@
+.title {
+    margin: auto;
+    text-align: center;
+    line-height: 0;
+}
+
+.h1 {
+    font-family: coolvetica;
+    font-size: 250px;
+    margin-top: 80px;
+    height: auto;
+    color: azure;
+    
+    padding: 0%;
+    transition-duration: 1000ms;
+    transition-property: transform, text-shadow;
+    transition-timing-function: ease-in-out;
+    text-shadow: 5px 5px 5px black, -5px -5px 5px black;
+}
+
+.h3 {
+    font-family: coolvetica;
+    font-size: 160px;
+    margin-bottom: 85px;
+    margin-top: 9%;
+    height: auto;
+    color: rgb(233, 233, 233);
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+}
+
+.h1:hover {
+    transform: scale(1.1);
+    text-shadow: 9px 9px 9px black, -9px -9px 9px black;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.button {
+    background-color: rgb(233, 233, 233);
+    font-family: coolvetica;
+    text-decoration: none;
+    color: black;
+    font-size: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    width: 480px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: solid 10px rgb(233, 233, 233);
+    height: 90px;
+    transition-duration: 500ms;
+    transition-property: transform, border-radius, border-color;
+}
+
+.links {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.members {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.links:hover {
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(213, 213, 213);
+    transform: scale(1.1);
+}
+.members:hover {
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(213, 213, 213);
+    transform: scale(1.1);
+}
+.aboutus:hover {
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(213, 213, 213);
+    transform: scale(1.1);
+}
