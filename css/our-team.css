@@ -1,0 +1,108 @@
+.thumbnail {
+    max-width: 310px;
+    width: 310px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.usercard p { 
+    font-family: coolvetica; 
+    width: 306px;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.container {
+    text-align: center;
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about {
+    padding-bottom: 15px;
+}
+
+.usercard {
+    width: 310px;
+    box-shadow: 0 0 5px 2px rgb(233, 233, 233);
+    background-color: rgb(233, 233, 233);
+    border: solid 5px rgb(233, 233, 233);
+    border-radius: 5px;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.usercard:hover {
+    color: azure;
+    border-color: rgb(18, 18, 18);
+    background-color: rgb(18, 18, 18);
+    transform: scale(1.1);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#rat:hover {
+    box-shadow: 0 0 5px 3px deeppink;
+}
+#sy:hover {
+    box-shadow: 0 0 5px 3px #7100ff;
+}
+#slash:hover {
+    box-shadow: 0 0 5px 3px #ff6900;
+}
+#luigi:hover {
+    box-shadow: 0 0 5px 3px #0c7521;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: auto;
+    transform: translateY(15%);
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+}
+
+.transition {
+    color: azure;
+    border-color: rgb(18, 18, 18);
+    box-shadow: 0 0 5px 3px rgb(18, 18, 18);
+    background-color: rgb(18, 18, 18);
+    transform: scale(0.9) ;
+    filter: blur(5px);
+}
+
+.title {
+    font-family: coolvetica;
+    font-size: 175px;
+    display: flex;
+    justify-content: center;
+    color: azure;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.icon {
+    max-width: 30px;
+    height: auto;
+}
+
+.links { 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.link-trans {
+    filter: invert(100%)
+}
