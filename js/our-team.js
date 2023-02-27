@@ -58,7 +58,6 @@ window.addEventListener('load', () => {
         rat.classList.remove('transition')
         slash.classList.remove('transition')
         luigi.classList.remove('transition')
-        delLinks()
     })
     
     slash.addEventListener('mouseout', event => {
