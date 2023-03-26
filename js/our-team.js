@@ -2,7 +2,6 @@ window.addEventListener('load', () => {
     var rat = document.getElementById('rat')
     var sy = document.getElementById('sy')
     var slash = document.getElementById('slash')
-    var luigi = document.getElementById('luigi')
     var links = document.getElementsByClassName('links')
 
     function addLinks() {
@@ -20,14 +19,12 @@ window.addEventListener('load', () => {
     rat.addEventListener('mouseover', event => {
         sy.classList.add('transition')
         slash.classList.add('transition')
-        luigi.classList.add('transition')
         addLinks()
     })
     
     sy.addEventListener('mouseover', event => {
         rat.classList.add('transition')
         slash.classList.add('transition')
-        luigi.classList.add('transition')
         addLinks()
     })
     
@@ -38,40 +35,23 @@ window.addEventListener('load', () => {
         addLinks()
     })
     
-    luigi.addEventListener('mouseover', event => {
-        rat.classList.add('transition')
-        sy.classList.add('transition')
-        slash.classList.add('transition')
-        addLinks()
-    })
-    
     // MOUSE OUT
     
     rat.addEventListener('mouseout', event => {
         sy.classList.remove('transition')
         slash.classList.remove('transition')
-        luigi.classList.remove('transition')
         delLinks()
     })
     
     sy.addEventListener('mouseout', event => {
         rat.classList.remove('transition')
         slash.classList.remove('transition')
-        luigi.classList.remove('transition')
         delLinks()
     })
     
     slash.addEventListener('mouseout', event => {
         rat.classList.remove('transition')
         sy.classList.remove('transition')
-        luigi.classList.remove('transition')
-        delLinks()
-    })
-    
-    luigi.addEventListener('mouseout', event => {
-        rat.classList.remove('transition')
-        sy.classList.remove('transition')
-        slash.classList.remove('transition')
         delLinks()
     })
 })
