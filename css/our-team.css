@@ -55,9 +55,6 @@
 #slash:hover {
     box-shadow: 0 0 5px 3px #ff6900;
 }
-#luigi:hover {
-    box-shadow: 0 0 5px 3px #0c7521;
-}
 
 .main {
     display: flex;
