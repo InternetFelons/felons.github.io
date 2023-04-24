@@ -31,7 +31,6 @@ window.addEventListener('load', () => {
     slash.addEventListener('mouseover', event => {
         rat.classList.add('transition')
         sy.classList.add('transition')
-        luigi.classList.add('transition')
         addLinks()
     })
     
