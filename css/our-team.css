@@ -52,6 +52,9 @@
 #sy:hover {
     box-shadow: 0 0 5px 3px #7100ff;
 }
+#millx:hover {
+    box-shadow: 0 0 5px 3px #bb00ff
+}
 #slash:hover {
     box-shadow: 0 0 5px 3px #ff6900;
 }

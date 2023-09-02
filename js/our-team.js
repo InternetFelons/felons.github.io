@@ -2,6 +2,7 @@ window.addEventListener('load', () => {
     var rat = document.getElementById('rat')
     var sy = document.getElementById('sy')
     var slash = document.getElementById('slash')
+    var millx = document.getElementById('millx')
     var links = document.getElementsByClassName('links')
 
     function addLinks() {
@@ -19,18 +20,28 @@ window.addEventListener('load', () => {
     rat.addEventListener('mouseover', event => {
         sy.classList.add('transition')
         slash.classList.add('transition')
+        millx.classList.add('transition')
         addLinks()
     })
     
     sy.addEventListener('mouseover', event => {
         rat.classList.add('transition')
         slash.classList.add('transition')
+        millx.classList.add('transition')
         addLinks()
     })
     
     slash.addEventListener('mouseover', event => {
         rat.classList.add('transition')
         sy.classList.add('transition')
+        millx.classList.add('transition')
+        addLinks()
+    })
+
+    millx.addEventListener('mouseover', event => {
+        rat.classList.add('transition')
+        sy.classList.add('transition')
+        slash.classList.add('transition')
         addLinks()
     })
     
@@ -39,18 +50,28 @@ window.addEventListener('load', () => {
     rat.addEventListener('mouseout', event => {
         sy.classList.remove('transition')
         slash.classList.remove('transition')
+        millx.classList.remove('transition')
         delLinks()
     })
     
     sy.addEventListener('mouseout', event => {
         rat.classList.remove('transition')
         slash.classList.remove('transition')
+        millx.classList.remove('transition')
         delLinks()
     })
     
     slash.addEventListener('mouseout', event => {
         rat.classList.remove('transition')
         sy.classList.remove('transition')
+        millx.classList.remove('transition')
+        delLinks()
+    })
+
+    millx.addEventListener('mouseout', event => {
+        sy.classList.remove('transition')
+        slash.classList.remove('transition')
+        rat.classList.remove('transition')
         delLinks()
     })
 })
